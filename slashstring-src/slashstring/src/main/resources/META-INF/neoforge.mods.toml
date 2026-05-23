@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[21,)"
+license="MIT"
+
+[[mods]]
+    modId="slashstring"
+    version="1.0.0"
+    displayName="SlashString"
+    description='''
+        /string füllt leere Inventarslots mit Fäden.
+        Villager-Restocks werden entfernt - unendlich traden!
+        Nur serverseitig benötigt.
+    '''
+
+[[dependencies.slashstring]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.slashstring]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="SERVER"
